@@ -50,5 +50,5 @@ Com o valor da estatística de teste, é verificado se este valor está compreen
 3. Resultados e conclusão
 
   Todos os valores simulados da estátistica de teste ficaram dentro do intervalo de confiança de 95%. Logo, não podemos rejeitar a hipótese nula à um nível de significância de 5% e portanto a média da soma das faces fica próximo de 7.
-Conclui-se que o jogo não é justo, pois os lançamentos dos dois dados não geram resultados igualmente prováveis. Para o jogador de dados, isto significa que quanto mais próximo a soma das faces estiver de 7, maior as probabilidades 
-delas ocorrerem.
+Conclui-se que o jogo não é justo, pois os resultados das somas das faces dos dois dados não possuem a mesma probabilidade de ocorrerem. Para o jogador de dados, isto significa que quanto mais próximo a soma das faces estiver de 7, maior as probabilidades 
+dela ocorrer.
