@@ -19,14 +19,17 @@ Para construção deste projeto, foram usadas as seguintes bibliotecas:
 
     Para a amostra, podemos usar a seguinte fórmula:
 
-  ![image](https://github.com/camargo-vinicius/Projeto_Tecnicas_Prog_1/assets/89496385/6a32a1f6-6278-4f5e-a1d8-3867a2b0d919)
+![image](https://github.com/camargo-vinicius/Projeto_Tecnicas_Prog_1/assets/89496385/6a32a1f6-6278-4f5e-a1d8-3867a2b0d919)
 
-  onde, temos que:
+ onde, temos que:
 
-  N: quantidade de lançamentos feitos
-  z: definido a partir do grau de confiança desejado (para 95%, z = 1.96)
-  p = proporção (podemos adotar p = 50% se eu não tenho nenhuma informação sobre o valor que eu espero encontrar)
-  e = margem de erro (5% para grau de confiança 95%)
+    N: quantidade de lançamentos feitos
+    
+    z: definido a partir do grau de confiança desejado (para 95%, z = 1.96)
+    
+    p = proporção (podemos adotar p = 50% se eu não tenho nenhuma informação sobre o valor que eu espero encontrar)
+    
+    e = margem de erro (5% para grau de confiança 95%)
 
   Para estes parametros, o tamanho da amostra é 278. A partir dessa amostra, calcula-se a média amostral e o desvio padrão amostral para determinar o valor de estatística, com base na seguinte fórmula:
 
