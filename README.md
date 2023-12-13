@@ -4,11 +4,11 @@
   Simular o lançamento de dois dados, obtendo a soma de suas faces para cada lançamento e verificando por fim se o jogo de dados é justo ou não, por meio de um teste de hipótese. Para a simulação, foram realizados 1000 lançamentos (N = 1000). 
 Para construção deste projeto, foram usadas as seguintes bibliotecas:
 
-        1 - Numpy, para criação de um vetor simulando o lançamento dos dois dados e análise dos resultados; 
-        
-        2 - Seaborn para o plot de um histograma, a fim de verificar o comportamento do conjunto de resultados;
-        
-        3 - Math, para uso da função sqrt() (square root)
+      1 - Numpy, para criação de um vetor simulando o lançamento dos dois dados e análise dos resultados; 
+      
+      2 - Seaborn para o plot de um histograma, a fim de verificar o comportamento do conjunto de resultados;
+      
+      3 - Math, para uso da função sqrt() (square root)
 
 2. Metodologia
   Na primeira etapa do mini projeto, foi criado uma função chamada 'lanca_dados()' para simular o lançamento dos dois dados, que retornava para o programa principal a soma das duas faces. Então, a mesma foi executada 1000 vezes no programa principal e os resultados retornados por ela armazenados em um vetor. Usando os métodos mean (), max(), min()e std(), foram calculados a média, o lançamento com a maior e menor soma, e o desvio padrão para os resultados obtidos, respectivamente.
