@@ -43,7 +43,7 @@
 
 que é:
 
-    media amostral - media população / (desvio padrão amostral / tamanho da amostra)
+    media amostral - media população / (desvio padrão amostral / raíz quadrada do tamanho da amostra)
 
 Com o valor da estatística de teste, é verificado se este valor está compreendido entre 1.96 <= z <= 1.96 para rejeitar ou não a hipótese nula.
 
