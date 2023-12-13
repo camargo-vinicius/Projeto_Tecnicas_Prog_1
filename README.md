@@ -38,12 +38,9 @@ Para construção deste projeto, foram usadas as seguintes bibliotecas:
 
   Fonte: https://www2.ufjf.br/clecio_ferreira//files/2012/04/Cap5-Testes-de-hipoteses-Parte-13.pdf
 
-onde:
+que é:
 
-    X = media amostral
-    u_0= media população
-     = desvio padrão amostral
-    n = tamanho da amostra
+    media amostral - media população / (desvio padrão amostral / tamanho da amostra)
 
 Com o valor da estatística de teste, é verificado se este valor está compreendido entre 1.96 <= z <= 1.96 para rejeitar ou não a hipótese nula.
 
