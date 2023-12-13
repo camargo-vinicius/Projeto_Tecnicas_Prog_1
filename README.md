@@ -14,8 +14,8 @@ Para construção deste projeto, foram usadas as seguintes bibliotecas:
   Na primeira etapa do mini projeto, foi criado uma função chamada 'lanca_dados()' para simular o lançamento dos dois dados, que retornava para o programa principal a soma das duas faces. Então, a mesma foi executada 1000 vezes no programa principal e os resultados retornados por ela armazenados em um vetor. Usando os métodos mean (), max(), min()e std(), foram calculados a média, o lançamento com a maior e menor soma, e o desvio padrão para os resultados obtidos, respectivamente.
   A segunda etapa consistia na realização de um teste de hipótese para verificar se o jogo de dados simulado é justo ou não, supondo que todos os lançamentos tivessem a mesma chance de ocorrer. Para isto, primeiramente foi plotado o histograma, com seus valores convertidos para uma normal padrão, e chegou-se a conclusão de que o conjunto de dados seguia uma distribuição normal. Considerando que a população da simulação são os 1000 lançamentos, com uma distribuição normal (plotada no projeto) e desvio padrão conhecido (calculado na etapa 1), podemos realizar um teste bilateral com grau de confiança 95% para uma determinada amostra. Usando como parametro a média dos resultados obtidos para a soma das faces, podemos formular as hipóteses nula e alternativa como:
 
-H0 - média u = 7
-H_alternativa != 7
+      H0 - média u = 7
+      H_alternativa != 7
 
 Para a amostra, podemos usar a seguinte fórmula:
 
@@ -23,10 +23,10 @@ Para a amostra, podemos usar a seguinte fórmula:
 
 onde, temos que:
 
-N: quantidade de lançamentos feitos
-z: definido a partir do grau de confiança desejado (para 95%, z = 1.96)
-p = proporção (podemos adotar p = 50% se eu não tenho nenhuma informação sobre o valor que eu espero encontrar)
-e = margem de erro (5% para grau de confiança 95%)
+  N: quantidade de lançamentos feitos
+  z: definido a partir do grau de confiança desejado (para 95%, z = 1.96)
+  p = proporção (podemos adotar p = 50% se eu não tenho nenhuma informação sobre o valor que eu espero encontrar)
+  e = margem de erro (5% para grau de confiança 95%)
 
 Para estes parametros, o tamanho da amostra é 278. A partir dessa amostra, calcula-se a média amostral e o desvio padrão amostral para determinar o valor de estatística, com base na seguinte fórmula:
 
@@ -36,10 +36,10 @@ Fonte: https://www2.ufjf.br/clecio_ferreira//files/2012/04/Cap5-Testes-de-hipote
 
 onde:
 
-X = media amostral
-u_0= media população
- = desvio padrão amostral
-n = tamanho da amostra
+  X = media amostral
+  u_0= media população
+   = desvio padrão amostral
+  n = tamanho da amostra
 
 Com o valor da estatística de teste, é verificado se este valor está compreendido entre 1.96 <= z <= 1.96 para rejeitar ou não a hipótese nula.
 
