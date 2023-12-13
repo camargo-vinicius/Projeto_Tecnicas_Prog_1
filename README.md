@@ -5,7 +5,9 @@
 Para construção deste projeto, foram usadas as seguintes bibliotecas:
 
 1 - Numpy, para criação de um vetor simulando o lançamento dos dois dados e análise dos resultados; 
+
 2 - Seaborn para o plot de um histograma, a fim de verificar o comportamento do conjunto de resultados;
+
 3 - Math, para uso da função sqrt() (square root)
 
 2. Metodologia
