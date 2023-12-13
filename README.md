@@ -3,7 +3,7 @@
 1. Objetivo
 
    Simular o lançamento de dois dados, obtendo a soma de suas faces para cada lançamento e verificando por fim se o jogo de dados é justo ou não, por meio de um teste de hipótese. Para a simulação, foram realizados 1000 lançamentos (N = 1000). 
-Para construção deste projeto, foram usadas as seguintes bibliotecas:
+   Para construção deste projeto, foram usadas as seguintes bibliotecas:
 
         1 - Numpy, para criação de um vetor simulando o lançamento dos dois dados e análise dos resultados; 
         
@@ -13,9 +13,9 @@ Para construção deste projeto, foram usadas as seguintes bibliotecas:
 
 2. Metodologia
 
-   Na primeira etapa do mini projeto, foi criado uma função chamada 'lanca_dados()' para simular o lançamento dos dois dados, que retornava para o programa principal a soma das duas faces. Então, a mesma foi executada 1000 vezes no programa principal e os resultados retornados por ela armazenados em um vetor. Usando os métodos mean (), max(), min()e std(), foram calculados a média, o lançamento com a maior e menor soma, e o desvio padrão para os resultados obtidos, respectivamente.
+   Na primeira etapa do mini projeto, foi criado uma função chamada 'lanca_dados()' para simular o lançamento dos dois dados, que retornava para o programa principal a soma das duas faces. Então, a mesma foi executada 1000 vezes no programa principal e os resultados       retornados por ela armazenados em um vetor. Usando os métodos mean (), max(), min()e std(), foram calculados a média, o lançamento com a maior e menor soma, e o desvio padrão para os resultados obtidos, respectivamente.
 
-  A segunda etapa consistia na realização de um teste de hipótese para verificar se o jogo de dados simulado é justo ou não, supondo que todos os lançamentos tivessem a mesma chance de ocorrer. Para isto, primeiramente foi plotado o histograma, com seus valores convertidos para uma normal padrão, e chegou-se a conclusão de que o conjunto de dados seguia uma distribuição normal. Considerando que a população da simulação são os 1000 lançamentos, com uma distribuição normal (plotada no projeto) e desvio padrão conhecido (calculado na etapa 1), podemos realizar um teste bilateral com grau de confiança 95% para uma determinada amostra. Usando como parametro a média dos resultados obtidos para a soma das faces, podemos formular as hipóteses nula e alternativa como:
+   A segunda etapa consistia na realização de um teste de hipótese para verificar se o jogo de dados simulado é justo ou não, supondo que todos os lançamentos tivessem a mesma chance de ocorrer. Para isto, primeiramente foi plotado o histograma, com seus valores            convertidos para uma normal padrão, e chegou-se a conclusão de que o conjunto de dados seguia uma distribuição normal. Considerando que a população da simulação são os 1000 lançamentos, com uma distribuição normal (plotada no projeto) e desvio padrão conhecido           (calculado na etapa 1), podemos realizar um teste bilateral com grau de confiança 95% para uma determinada amostra. Usando como parametro a média dos resultados obtidos para a soma das faces, podemos formular as hipóteses nula e alternativa como:
 
       H0 - média u = 7
       H_alternativa != 7
@@ -49,5 +49,5 @@ Com o valor da estatística de teste, é verificado se este valor está compreen
 3. Resultados e conclusão
    
    Todos os valores simulados da estátistica de teste ficaram dentro do intervalo de confiança de 95%. Logo, não podemos rejeitar a hipótese nula à um nível de significância de 5% e portanto a média da soma das faces fica próximo de 7.
-Conclui-se que o jogo não é justo, pois os resultados das somas das faces dos dois dados não possuem a mesma probabilidade de ocorrerem. Para o jogador de dados, isto significa que quanto mais próximo a soma das faces estiver de 7, maior as probabilidades 
-dela ocorrer.
+   Conclui-se que o jogo não é justo, pois os resultados das somas das faces dos dois dados não possuem a mesma probabilidade de ocorrerem. Para o jogador de dados, isto significa que quanto mais próximo a soma das faces estiver de 7, maior as probabilidades 
+   dela ocorrer.
